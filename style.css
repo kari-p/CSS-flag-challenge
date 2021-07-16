@@ -1,0 +1,46 @@
+.flex{ 
+    display: flex;
+}
+
+.left {
+    background-color: black;
+    width: 250px;
+    height: 400px;
+}
+
+.middle {
+    background-color: yellow;
+    width: 250px;
+    height: 400px;
+}
+
+.right {
+    background-color:red;
+    width: 250px;
+    height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 400px;
+        height: 250px;
+        background-color:black;
+    }
+
+    .middle{
+        width: 400px;
+        height: 250px;
+        background-color:red;
+    }
+
+    .right {
+        width: 400px;
+        height: 250px;
+        background-color:yellow;
+    }
+}
